@@ -15,6 +15,10 @@ import argparse
 log = logging.getLogger("app.main")
 
 
+def something():
+    return True
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -30,7 +34,6 @@ def main():
         pass
 
     log.info("run main")
-
     return 0
 
 

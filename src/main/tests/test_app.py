@@ -9,6 +9,7 @@
 # *******************************************************
 
 import unittest
+from app.main import something
 
 
 class AppTestCase(unittest.TestCase):
@@ -19,7 +20,7 @@ class AppTestCase(unittest.TestCase):
         return super().tearDown()
 
     def test_something(self):
-        self.assertTrue(True)
+        self.assertTrue(something())
 
 
 if __name__ == "__main__":

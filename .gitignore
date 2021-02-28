@@ -16,3 +16,4 @@ dist/
 test-reports
 __pycache__
 .coverage
+.pytest_cache
