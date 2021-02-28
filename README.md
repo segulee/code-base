@@ -6,6 +6,8 @@
 - **git** for CM
 
 ## for use
+```bash
 mkdir yourproj
 cd yourproj
 git clone https://github.com/segulee/code-base.git . && rm -rf .git
+```
