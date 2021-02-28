@@ -4,8 +4,8 @@ USER='segulee'
 APP='app'
 
 unittest:
-	$(PYTHON_HOME)/bin/coverage run -m pytest tests -v --junitxml="$(TEST_REPORTS)/unittest.xml"
-	$(PYTHON_HOME)/bin/coverage report
+	coverage run -m pytest tests -v --junitxml="$(TEST_REPORTS)/unittest.xml"
+	coverage report
 
 publish:
 	docker push $(USER)/$(APP):$(VERSION)
